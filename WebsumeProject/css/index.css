@@ -1,0 +1,68 @@
+html, body , #main{
+  height: 100%;
+  width: 100%;
+  color: white;
+  background-color: black;
+}
+
+section {
+  float: left;
+}
+
+iframe {
+  float: left;
+  height: 100%;
+  width: 100%;
+}
+
+#right-side {
+  height: 100%;
+  width: 75%;
+}
+
+#left-side{
+  height: 100%;
+  width: 25%;
+}
+/*common segment style*/
+.segment, .full-segment, .half-segment{
+  position: relative;
+}
+
+/*short segment*/
+.half-segment {
+  height: 50%;
+  width: 100%;
+}
+
+/*tall segment*/
+.full-segment {
+  height: 100%;
+  width: 100%;
+}
+
+.bio-text{
+  color: white;
+}
+
+/*Top left, just fun pictures maybe*/
+#anim-square {
+}
+
+/*Bottom left, selects what should be displayed in the Content div*/
+#navbar {
+}
+
+/* Changing bit off to the side */
+#content {
+}
+
+/*list of buttons inside of navbar*/
+#button-list {
+  list-style: none;
+}
+
+/*elements in the navbar list*/
+#navbar li {
+  margin: 10px 0;
+}

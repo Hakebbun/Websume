@@ -1,0 +1,21 @@
+/*centering the name plate at the top*/
+.name-plate {
+  font-size: 60px;
+  margin:0 auto 0 auto;
+  text-align: center;
+  width: 80%
+}
+
+/*underline div. TODO: May replace this with asset later*/
+.underline {
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  border-bottom-width: 2px;
+  margin: 0 10 0 10;
+}
+
+/* override the section for bio*/
+section {
+  height: 100%;
+  width: 100%;
+}
