@@ -1,5 +1,21 @@
+/* override the section for bio*/
+section {
+  height: 100%;
+  width: 100%;
+}
+
+/* Styles for pre text */
+pre {
+  white-space: pre-wrap;
+  font-size: 18px;
+  font-family: Courier;
+  margin:0;
+  padding: 10px 30px 10px 30px;
+}
+
 /*centering the name plate at the top*/
 .name-plate {
+  font-family: Georgia;
   font-size: 60px;
   margin:0 auto 0 auto;
   text-align: center;
@@ -14,8 +30,6 @@
   margin: 0 10 0 10;
 }
 
-/* override the section for bio*/
-section {
-  height: 100%;
-  width: 100%;
+.bio-text {
+
 }

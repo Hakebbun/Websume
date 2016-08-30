@@ -1,7 +1,12 @@
+/*******
+  Styling for the MAIN page.
+*******/
+
 html, body , #main{
   height: 100%;
   width: 100%;
   color: white;
+  margin: 0;
   background-color: black;
 }
 

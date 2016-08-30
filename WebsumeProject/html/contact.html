@@ -3,6 +3,8 @@
 <head>
   <title>Page Title</title>
   <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/contact.css">
+
   <script type="text/javascript" src="../javascript/index.js"></script>
 
 </head>
@@ -10,10 +12,34 @@
 
 <div id ="main">
 
-<pre class=bio-text>
-  I'm kevin and I'm working on building a Contact page
-</pre>
+  <!-- <section class="banner"> -->
+    <div class="name-plate">
+      <span >Contact Me!</span>
+      <!-- might replace this with assets later -->
+      <div class="underline"></div>
+    </div>
+  <!-- </section> -->
 
+
+<section id="contact-body">
+  <div class="letter-div">
+
+    <!-- hook into js -->
+    <form action=>
+        From:<br>
+        <input maxlength="37" type="text" name="from">
+        <br>
+        Return Address:<br>
+        <input maxlength="37" type="text" name="return">
+        <br>
+        Message:<br>
+        <textarea type="text" name="message"></textarea>
+    </form>
+  </div>
+
+  <button id="send-mail">send</button>
+
+</section>
 
 </div>
 

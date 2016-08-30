@@ -1,0 +1,77 @@
+#top-title {
+  height: 8%;
+  width: 100%;
+  /*dark blue*/
+  background-color: #003cb3;
+}
+
+#contact-body {
+  height: 100%;
+  width: 100%;
+  margin: 40px 0 0 130px;
+}
+
+/*centering the name plate at the top*/
+.name-plate {
+  font-family: Georgia;
+  font-size: 60px;
+  margin:0 auto 0 auto;
+  text-align: center;
+  width: 80%
+}
+
+/*underline div. TODO: May replace this with asset later*/
+.underline {
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  border-bottom-width: 2px;
+  margin: 0 10 0 10;
+}
+
+/*form styling for the email*/
+.letter-div {
+  height: 35%;
+  width: 70%;
+  border-width: 1px;
+  border-color: #808080;
+  border-style: solid;
+  padding: 5px;
+}
+
+/* override the section for bio*/
+.banner {
+  height: 100%;
+  width: 100%;
+}
+
+/*overriding pre margins*/
+pre {
+  margin: 0px;
+}
+
+input {
+  margin: 20px;
+  font-size: 18px;
+  width: 50%;
+  background-color: black;
+  color: white;
+  border-width: 0px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  outline: none;
+}
+
+textarea {
+  font-size: 18px;
+  line-height:30px;
+  background: transparent url(http://s24.postimg.org/62v2ipx81/underline.png) repeat;
+  background-color: black;
+  color: white;
+  width: 95%;
+  height: 150px;
+  margin: 20px;
+  border-width: 0px;
+  outline: none;
+  resize: none;
+}
