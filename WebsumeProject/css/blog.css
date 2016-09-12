@@ -1,0 +1,29 @@
+.blog-post {
+  padding: 10px;
+  margin: 10px;
+}
+
+.blog-title {
+  color: white;
+  font-size: 24px;
+}
+
+.blog-date {
+  color: #bfbfbf;
+  font-size: 16px;
+  font-style: italic;
+  float: right;
+}
+
+.blog-summary {
+  color:#bfbfbf;
+  font-size: 18px;
+}
+
+/*underline div. TODO: May replace this with asset later*/
+.underline {
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  border-bottom-width: 1px;
+  margin: 0 10 0 10;
+}

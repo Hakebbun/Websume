@@ -1,20 +1,67 @@
-#top-title {
-  height: 8%;
-  width: 100%;
-  /*dark blue*/
-  background-color: #003cb3;
-}
 
 #contact-body {
-  height: 100%;
+  height: 60%%;
   width: 100%;
   margin: 40px 0 0 130px;
 }
+
+#send-mail {
+  margin-top: 10px;
+  color: white;
+  background-color: black;
+  border-color: #808080;
+  border-width: thin;
+}
+
+#resume-contact {
+  height: 20%;
+  width: 100%;
+}
+
+#contact-locations {
+  margin-top: 10px;
+  padding-top: 30px;
+}
+
+#contact-locations-list {
+
+}
+
+g {
+  height: 100%;
+  width: 50%;
+}
+
+ul {
+  white-space: nowrap;
+  list-style-type: none;
+}
+
+ul, li{
+  list-style: none;
+  display: inline;
+}
+
+.svg-holder {
+  margin:0 auto 0 auto;
+  text-align: center;
+  width: 80%
+}
+
 
 /*centering the name plate at the top*/
 .name-plate {
   font-family: Georgia;
   font-size: 60px;
+  margin:0 auto 0 auto;
+  text-align: center;
+  width: 80%
+}
+
+/*centering the name plate at the top*/
+.name-plate2 {
+  font-family: Georgia;
+  font-size: 40px;
   margin:0 auto 0 auto;
   text-align: center;
   width: 80%
@@ -63,6 +110,7 @@ input {
 }
 
 textarea {
+  overflow: hidden;
   font-size: 18px;
   line-height:30px;
   background: transparent url(http://s24.postimg.org/62v2ipx81/underline.png) repeat;
