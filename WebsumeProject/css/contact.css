@@ -1,8 +1,8 @@
 
 #contact-body {
-  height: 60%%;
-  width: 100%;
-  margin: 40px 0 0 130px;
+  height: auto;
+  width: 90%;
+  padding: 40px 0 0 130px;
 }
 
 #send-mail {

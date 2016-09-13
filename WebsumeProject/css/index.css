@@ -23,11 +23,12 @@ iframe {
 #right-side {
   height: 100%;
   width: 75%;
+  padding-right: 10px;
 }
 
 #left-side{
   height: 100%;
-  width: 25%;
+  width: 20%;
 }
 /*common segment style*/
 .segment, .full-segment, .half-segment{
@@ -69,5 +70,6 @@ iframe {
 
 /*elements in the navbar list*/
 #navbar li {
-  margin: 10px 0;
+  font-size: 20px;
+  margin: 25px 0;
 }
