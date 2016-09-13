@@ -32,14 +32,18 @@ g {
   width: 50%;
 }
 
+ul, li{
+  list-style: none;
+  display: inline;
+}
+
 ul {
   white-space: nowrap;
   list-style-type: none;
 }
 
-ul, li{
-  list-style: none;
-  display: inline;
+li {
+  margin-left: 10px;
 }
 
 .svg-holder {
