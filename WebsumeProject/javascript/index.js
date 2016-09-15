@@ -1,9 +1,9 @@
 // Constants:
-var BIO_PATH = "../html/bio.html";
-var BLOG_PATH = "../html/blog.html";
-var PROJECTS_PATH = "../html/projects.html";
-var CONTACT_PATH = "../html/contact.html"
-var MUSING_PATH = "../html/musing.html";
+var BIO_PATH = "html/bio.html";
+var BLOG_PATH = "html/blog.html";
+var PROJECTS_PATH = "html/projects.html";
+var CONTACT_PATH = "html/contact.html"
+var MUSING_PATH = "html/musing.html";
 
 
 // On start:
